@@ -101,7 +101,9 @@ public class App
     	
     	
     	
-    	while (true) {
+    	after discount:" +newDiscountValue);
+	 	   
+	    } while (true) {
 			System.out.print("Do you want to enter another  item price(Y/N) ?\n");
 			Scanner ans = new Scanner(System.in);
 			answer =ans.nextLine();
@@ -146,9 +148,7 @@ public class App
 	 	    newDiscountValue = total_cashier - discount;
 	 	  // System.out.println(NumberFormat.getCurrencyInstance(new Locale("en", "US"))
 	 		    //    .format(newDiscountValue));
-	 	  System.out.println("Cost after discount:" +newDiscountValue);
-	 	   
-	    } 
+	 	  System.out.println("Cost 
 */
  
    
